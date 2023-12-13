@@ -1,0 +1,63 @@
+.a {/* все для клітинки*/
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    cursor: pointer;/*курсор мишка*/
+    background-color: blue; /*cиній для всієї таблиці*/
+    color: white; /* білий текст */
+}
+
+.a.mine {
+    background-color: red;/* міна*/
+}
+
+.a.opened {
+    background-color: white; /* Білий колір для відкритих клітинок */
+}
+
+.a.number-1 {
+    background-color: white; 
+    color: black; 
+}
+
+.a.number-2 {
+    background-color: green; 
+    color: white;
+}
+
+.a.number-3 {
+    background-color: pink; 
+    color: white;
+}
+
+.a.number-4 {
+    background-color: darkblue; 
+    color: white;
+}
+
+.a.number-5 {
+    background-color: brown; 
+    color: white;
+}
+
+.a.number-6 {
+    background-color: teal; 
+    color: white;
+}
+
+.a.number-7 {
+    background-color: black; 
+    color: white;
+}
+
+.a.number-8 {
+    background-color: yellow; 
+    color: black; 
+}
+
+table {
+    border-collapse: collapse;/*злиття границь */
+    margin: 10px auto; /* внутрішні відступи 10пік та вирівнює таблицю по центру */
+}
+
